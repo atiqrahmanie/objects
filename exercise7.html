@@ -11,7 +11,7 @@
         let sum=0;
         for(let a in price)
     {
-        let ans=basket[a]*prices[a];
+        let ans=basket[a]*price[a];
         sum+=ans;
     }
 return sum;
@@ -31,7 +31,7 @@ function  clicks()
         "Bread": 1.5,
 };
  const answer= f7(basket,price);
- alert("Your total price is");
+ alert("Your total price is" +answer);
 }
    </script>
    <button onclick="clicks()"> Invoke me</button>
